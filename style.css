@@ -1,0 +1,36 @@
+body {
+    background-color: #363a46;
+}
+.container {
+    width: 960px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px 45px 30px;
+    background-color: #fff;
+}
+.top-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+label {
+    flex-basis: 48%;
+}
+
+textarea {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+}
+
+.button-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+#info {
+    flex: 1;
+}
+.btn {
+    flex-basis: 160px;
+}

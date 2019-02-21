@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Group Work 2</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<div class="top-wrapper">
+			<label>Input
+				<textarea name="input" id="inputCode" cols="55" rows="10">
+a: int <= 10;
+b: string <= 'Start ';
+
+repeat(int i = 0; i< 10; i++) {
+	a <= a ++ i -- 1;
+}
+
+b <= b ++ 'End';
+				</textarea>
+			</label>
+			<label>Output
+				<textarea name="output" id="outputCode" cols="55" rows="10"></textarea>
+			</label>
+		</div>
+		<div class="button-wrapper">
+			<textarea name="info" id="info" cols="30" rows="7"></textarea>
+			<button class="btn" onclick="transpile()">Transpile</button>
+		</div>
+	</div>
+	<script src="code.js"></script>
+</body>
+</html>
